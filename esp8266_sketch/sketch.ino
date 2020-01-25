@@ -11,7 +11,7 @@ DHT dht(DHTPIN, DHTTYPE);
 void setup() {
   Serial.begin(115200);                             //Serial connection
   dht.begin();
-  WiFi.begin("jaga-jaga", "gvadelupa");    //WiFi connection
+  WiFi.begin("ssid", "password");    //WiFi connection
   
   while (WiFi.status() != WL_CONNECTED) {  //Wait for the WiFI connection
  
