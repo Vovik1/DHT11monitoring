@@ -1,0 +1,1 @@
+Temperature is higher than 45 °C!!!
